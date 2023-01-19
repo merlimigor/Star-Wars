@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', cursive;
+}
+
+body{
+    background-image: url(../img/spaco.png);
+    
+}
+.s-hero {
+}
+
+.tabela {
+    position: relative;
+    top: -299px;
+    margin: 328px;
+
+}
+
+.form h1 {
+    display: flex;
+    color: aliceblue;
+    position: relative;
+    left: -39px;
+    bottom: 200px;
+    font-size: 21px;
+}
+
+.form {
+    background-image: url(../gif/gif.gif);
+    background-color: rgb(35, 32, 32);
+    padding: 240px;
+    
+}
+
+.person_data {
+    flex-direction: column;
+    position: relative;
+    margin-top: -150px;
+    left: -200px;
+    color: gray;
+    padding: 10px 10px;
+    
+}
+
+.id {
+    display: flex;
+    font-weight: 500;
+    font-size: 1.1rem;
+    
+}
+
+.buttons {
+    position: absolute;
+    width: 58%;
+    display: flex;
+    gap: 20px;
+    top: 69%;
+    right: 21%;
+}
+
+.btn:hover {
+    background-color: var(--cor-hover-sucess);
+}
+
+.btn{
+    width: 50%;
+    padding: 4%;
+    background-color: (231, 224, 224);
+    color: red;
+    font-weight: 600;
+    font-size: clamp(8px, 6vw, 1rem);
+    border-radius: 5px;
+    box-shadow: -2px 3px 0 rgb(37, 36, 36), -4px 5px black;
+
+}
+
+.btn:active{
+    box-shadow: inset -3px 4px 0 rgb(37, 36, 36);
+    font-size: 0.8rem;
+}
+
+.logo {
+}
+
+.trevas {
+    animation: luz 4s infinite;
+    position: relative;
+    top: -1177px;
+    left: -104px;
+}
+
+.luz {
+    animation: luz 7s infinite;
+    position: relative;
+    bottom: 1231px;
+    right: -458px;
+}
+
+
+@keyframes trevas {
+    0%{
+        transform: translatey(-3rem);
+    }
+    50%{
+        transform: translatey(0rem);
+    }
+    100%{
+        transform: translatey(-3rem);
+    }
+}
+@keyframes luz {
+    0%{
+        transform: translatey(-3rem);
+    }
+    50%{
+        transform: translatey(0rem);
+    }
+    100%{
+        transform: translatey(-3rem);
+    }
+}
